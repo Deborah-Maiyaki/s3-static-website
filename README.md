@@ -135,8 +135,6 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 
 ## 📸 Screenshots
 
-> *(Add your own screenshots to the `screenshots/` folder and update these links)*
-
 | Step | Description |
 |---|---|
 | `screenshots/01-bucket-created.png` | S3 bucket successfully created |
@@ -186,7 +184,7 @@ s3-static-website/
 ├── index.html         # Main website file
 ├── styles.css         # Website styling
 └── screenshots/       # Add your screenshots here
-```![01-bucket-created](https://github.com/user-attachments/assets/974fe131-35fc-43d5-b8e3-c63be3584177)
+```!screenshots/[01-bucket-created](https://github.com/user-attachments/assets/974fe131-35fc-43d5-b8e3-c63be3584177)
 <img width="1365" height="709" alt="02-hosting-enabled" src="https://github.com/user-attachments/assets/1a258233-bbbc-4d67-8d72-953794741f8c" />
 
 ---
