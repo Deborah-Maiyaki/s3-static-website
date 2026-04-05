@@ -137,11 +137,11 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 
 | Step | Description |
 |---|---|
-| `![Step 1](screenshots/01-bucket-created.png)` | S3 bucket successfully created |
-| `![Step 2](screenshots/02-files-uploaded.png)` | Website files uploaded to the bucket |
-| `![Step 3](screenshots/03-static-hosting-enabled.png)` | Static website hosting turned on |
-| `![Step 4](screenshots/04-permissions-configured.png)` | Block public access unchecked |
-| `![Step 5](screenshots/05-website-live.png)` | Website accessible in browser |
+| ![Step 1](screenshots/01-bucket-created.png) | S3 bucket successfully created |
+| ![Step 2](screenshots/02-files-uploaded.png) | Website files uploaded to the bucket |
+| ![Step 3](screenshots/03-static-hosting-enabled.png) | Static website hosting turned on |
+| ![Step 4](screenshots/04-permissions-configured.png) | Block public access unchecked |
+| ![Step 5](screenshots/05-website-live.png) | Website accessible in browser |
 
 ---
 
