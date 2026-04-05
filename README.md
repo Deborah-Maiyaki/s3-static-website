@@ -137,11 +137,11 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 
 | Step | Description |
 |---|---|
-| `screenshots/01-bucket-created.png` | S3 bucket successfully created |
-| `screenshots/02-files-uploaded.png` | Website files uploaded to the bucket |
-| `screenshots/03-static-hosting-enabled.png` | Static website hosting turned on |
-| `screenshots/04-permissions-configured.png` | Block public access unchecked |
-| `screenshots/05-website-live.png` | Website accessible in browser |
+| `![Step 1](screenshots/01-bucket-created.png)` | S3 bucket successfully created |
+| `![Step 2](screenshots/02-files-uploaded.png)` | Website files uploaded to the bucket |
+| `![Step 3](screenshots/03-static-hosting-enabled.png)` | Static website hosting turned on |
+| `![Step 4](screenshots/04-permissions-configured.png)` | Block public access unchecked |
+| `![Step 5](screenshots/05-website-live.png)` | Website accessible in browser |
 
 ---
 
@@ -183,9 +183,14 @@ s3-static-website/
 ├── README.md          # This file
 ├── index.html         # Main website file
 ├── styles.css         # Website styling
-└── screenshots/       # Add your screenshots here
-```!screenshots/[01-bucket-created](https://github.com/user-attachments/assets/974fe131-35fc-43d5-b8e3-c63be3584177)
-<img width="1365" height="709" alt="02-hosting-enabled" src="https://github.com/user-attachments/assets/1a258233-bbbc-4d67-8d72-953794741f8c" />
+└── screenshots/       #
+<img width="1366" height="676" alt="01-bucket-created" src="https://github.com/user-attachments/assets/4c0f354a-16b4-4d86-87f5-cea423bbbb27" />
+![02-files-uploaded](https://github.com/user-attachments/assets/541263e5-32bb-49ff-b212-3070e57880c2)
+<img width="1365" height="709" alt="03-hosting-enabled" src="https://github.com/user-attachments/assets/53272802-414a-4d65-9a2e-d254e51c9370" />
+<img width="1357" height="669" alt="04-permissions-configured" src="https://github.com/user-attachments/assets/bb0f6838-0b1b-42ad-931d-4170e88f3e7e" />
+![05-website-live](https://github.com/user-attachments/assets/3eb3b736-4995-4946-9260-517492b70774)
+
+
 
 ---
 
