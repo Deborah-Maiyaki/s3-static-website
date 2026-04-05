@@ -186,17 +186,18 @@ s3-static-website/
 ├── index.html         # Main website file
 ├── styles.css         # Website styling
 └── screenshots/       # Add your screenshots here
-```
+```![01-bucket-created](https://github.com/user-attachments/assets/974fe131-35fc-43d5-b8e3-c63be3584177)
+<img width="1365" height="709" alt="02-hosting-enabled" src="https://github.com/user-attachments/assets/1a258233-bbbc-4d67-8d72-953794741f8c" />
 
 ---
 
 ## 🙋 Author
 
 **Deborah Maiyaki**
-Cloud Security & DevOps Learner | Open to entry-level roles
+Cloud Security & DevOps Engineer | Open to entry-level roles
 
-- LinkedIn: [your-linkedin-url]
-- GitHub: [your-github-url]
+- LinkedIn: [https://www.linkedin.com/in/deborahmaiyaki/]
+- GitHub: [https://github.com/Deborah-Maiyaki]
 
 ---
 
