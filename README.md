@@ -130,6 +130,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Paste the URL into a browser and confirm the website loads
 
 > 📹 [Video walkthrough at 12:48](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=768)
+> <img src="https://github.com/user-attachments/assets/3eb3b736-4995-4946-9260-517492b70774" width="600">
 
 ---
 
