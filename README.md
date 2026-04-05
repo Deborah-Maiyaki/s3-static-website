@@ -14,7 +14,6 @@ A step-by-step documentation of deploying a static website on Amazon S3 — cove
 - [Tools Used](#️-tools-used)
 - [Architecture](#️-architecture)
 - [Step-by-Step Deployment](#-step-by-step-deployment)
-- [Screenshots](#-screenshots)
 - [Lessons Learned](#-lessons-learned)
 - [What I Would Do Differently (Security Improvements)](#-what-i-would-do-differently-security-improvements)
 
@@ -65,7 +64,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Leave other settings as default and click **Create**
 - Confirm the bucket appears in the S3 dashboard
 
-> 📹 [Video walkthrough at 0:48](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=48)
+> 📹 [Video walkthrough at 0:48](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=48) <img width="600" height="676" alt="01-bucket-created" src="https://github.com/user-attachments/assets/bc4bb18a-4d7b-476c-bca0-c11414fa07b9" />
 
 ---
 
@@ -77,6 +76,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Click **Upload** and wait for confirmation
 
 > 📹 [Video walkthrough at 2:36](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=156)
+> <img src="https://github.com/user-attachments/assets/541263e5-32bb-49ff-b212-3070e57880c2" width="600">
 
 ---
 
@@ -88,7 +88,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Set **Index document** to `index.html`
 - Save changes
 
-> 📹 [Video walkthrough at 6:03](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=363)
+> 📹 [Video walkthrough at 6:03](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=363) <img width="600" height="709" alt="03-hosting-enabled" src="https://github.com/user-attachments/assets/adde2d15-0cd6-45d1-a09f-125fb02d1f04" />
 
 ---
 
@@ -99,7 +99,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Uncheck **Block all public access**
 - Save changes and confirm the action
 
-> 📹 [Video walkthrough at 8:07](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=487)
+> 📹 [Video walkthrough at 8:07](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=487) <img width="600" height="669" alt="04-permissions-configured" src="https://github.com/user-attachments/assets/4950cb43-9cc3-4bcb-986d-18fc08c417df" />
 
 ---
 
@@ -109,7 +109,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Edit settings to enable **ACLs**
 - Acknowledge the changes and save
 
-> 📹 [Video walkthrough at 10:08](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=608)
+> 📹 [Video walkthrough at 10:08](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=608) <img width="600" height="644" alt="05-object-ownership-acls-set" src="https://github.com/user-attachments/assets/4bb18add-4759-4d22-94a1-7834659211da" />
 
 ---
 
@@ -119,7 +119,7 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 - Click **Actions → Make public using ACL**
 - Confirm that public read access is enabled
 
-> 📹 [Video walkthrough at 11:11](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=671)
+> 📹 [Video walkthrough at 11:11](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=671) <img width="600" height="667" alt="06-files-made- public" src="https://github.com/user-attachments/assets/4e0072ad-16d7-4fc4-905d-8c3438ca7f4d" />
 
 ---
 
@@ -131,18 +131,6 @@ This project demonstrates how to host a static website using AWS S3. The site wa
 
 > 📹 [Video walkthrough at 12:48](https://loom.com/share/65458e4ca6674320a59f01f817955b29?t=768)
 > <img src="https://github.com/user-attachments/assets/3eb3b736-4995-4946-9260-517492b70774" width="600">
-
----
-
-## 📸 Screenshots
-
-| Step | Description |
-|---|---|
-| ![Step 1](screenshots/01-bucket-created.png) | S3 bucket successfully created |
-| ![Step 2](screenshots/02-files-uploaded.png) | Website files uploaded to the bucket |
-| ![Step 3](screenshots/03-static-hosting-enabled.png) | Static website hosting turned on |
-| ![Step 4](screenshots/04-permissions-configured.png) | Block public access unchecked |
-| ![Step 5](screenshots/05-website-live.png) | Website accessible in browser |
 
 ---
 
@@ -166,7 +154,7 @@ This project deployed the site by making the bucket fully public using ACLs — 
 - **Enabling server access logging** to keep an audit trail of all requests
 - **Using CloudFront** in front of S3 for HTTPS support, caching, and DDoS protection
 
-> See my related project: [Secure S3 Website with IAM Hardening](https://github.com/YOUR_USERNAME/secure-s3-website) — which implements all of these improvements.
+> See my related project: [Secure S3 Website with IAM Hardening](https://github.com/Deborah-Maiyaki/secure-s3-website) — which implements all of these improvements.
 
 ---
 
@@ -174,24 +162,6 @@ This project deployed the site by making the bucket fully public using ACLs — 
 
 Watch the complete step-by-step deployment:
 👉 [Loom Video Guide](https://loom.com/share/65458e4ca6674320a59f01f817955b29)
-
----
-
-## 📁 Project Structure
-
-```
-s3-static-website/
-├── README.md          # This file
-├── index.html         # Main website file
-├── styles.css         # Website styling
-└── screenshots/       #
-<img width="1366" height="676" alt="01-bucket-created" src="https://github.com/user-attachments/assets/4c0f354a-16b4-4d86-87f5-cea423bbbb27" />
-![02-files-uploaded](https://github.com/user-attachments/assets/541263e5-32bb-49ff-b212-3070e57880c2)
-<img width="1365" height="709" alt="03-hosting-enabled" src="https://github.com/user-attachments/assets/53272802-414a-4d65-9a2e-d254e51c9370" />
-<img width="1357" height="669" alt="04-permissions-configured" src="https://github.com/user-attachments/assets/bb0f6838-0b1b-42ad-931d-4170e88f3e7e" />
-![05-website-live](https://github.com/user-attachments/assets/3eb3b736-4995-4946-9260-517492b70774)
-
-
 
 ---
 
